@@ -23,33 +23,25 @@ function addItem(){
 
 
     if (item === '') {
-        var p = document.createElement('p');
-        var t = document.createTextNode("Enter your todo!")
+       
+        alert('Add your task');
 
-        p.appendChild(t);
-        document.getElementById('empty').appendChild(p);
-         
-        setTimeout(() => {
-           p.className='visual2'; 
-        }, 1500);
-        return false;
-
-        //add a p tag and assign a value of "enter your todo"
+        
     } else {
-        //create li
+        
         li = document.createElement('li');
 
-        //create checbox
+        
         var checkbox = document.createElement('input')
         checkbox.type = 'checkbox';
         checkbox.setAttribute('id', 'check');
       
-        //create label
+        
 
         var label = document.createElement('label');
-        label.setAttribute('for', 'item') //optional
+        label.setAttribute('for', 'item') 
 
-    //add these elemnts on web page
+    
 
     ul.appendChild(label);
     li.appendChild(checkbox);

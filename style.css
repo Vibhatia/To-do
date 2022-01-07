@@ -52,7 +52,7 @@ text-transform: uppercase;
     vertical-align: middle;
     height: 100%;
     line-height: 40px;
-    font-size: 18px;
+    font-size: .9em;
 }
 
 #container ul li #check {
